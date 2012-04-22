@@ -1,0 +1,24 @@
+
+#ifndef _BANK_MANAGER_IDL
+#define _BANK_MANAGER_IDL
+
+module BankManager{
+	interface Account{
+		boolean open(inout string id,
+			in string password,
+			inout string balance,
+			in string customerName);
+			
+		boolean close(in string id);
+	
+	    boolean deposite(in string id, in string value);
+	
+		string getBalance(in string id);
+	
+		boolean transfer(in string from,in string to,in string value);
+	
+		boolean withdraw(in string id, in string value);
+	};
+};
+
+#endif

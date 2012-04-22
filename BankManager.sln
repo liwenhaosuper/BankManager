@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BankManagerServer", "BankManagerServer\BankManagerServer.vcxproj", "{CFE9FD42-9867-4A05-BEC9-EDC592DC16CC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BankManagerClient", "BankManagerClient\BankManagerClient.vcxproj", "{DE832F02-9F91-4B34-A3B0-2F28C5FA3A68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFE9FD42-9867-4A05-BEC9-EDC592DC16CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CFE9FD42-9867-4A05-BEC9-EDC592DC16CC}.Debug|Win32.Build.0 = Debug|Win32
+		{CFE9FD42-9867-4A05-BEC9-EDC592DC16CC}.Release|Win32.ActiveCfg = Release|Win32
+		{CFE9FD42-9867-4A05-BEC9-EDC592DC16CC}.Release|Win32.Build.0 = Release|Win32
+		{DE832F02-9F91-4B34-A3B0-2F28C5FA3A68}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DE832F02-9F91-4B34-A3B0-2F28C5FA3A68}.Debug|Win32.Build.0 = Debug|Win32
+		{DE832F02-9F91-4B34-A3B0-2F28C5FA3A68}.Release|Win32.ActiveCfg = Release|Win32
+		{DE832F02-9F91-4B34-A3B0-2F28C5FA3A68}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
