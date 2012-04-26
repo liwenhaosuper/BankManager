@@ -1,46 +1,34 @@
-﻿生成启动时间为 2012-04-22 15:45:09。
-     1>项目“F:\projects\middleware\BankManager\BankManagerServer\BankManagerServer.vcxproj”在节点 2 上(build 个目标)。
+﻿生成启动时间为 2012-04-26 13:18:35。
+     1>项目“F:\projects\middleware\BankManager\BankManager\BankManagerServer\BankManagerServer.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\BankManagerServer.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:\lib\xerces-c-3.1.1-x86-windows-vc-10.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D __WIN32__ /D __x86__ /D _WIN32_WINNT=0x0400 /D __NT__ /D __OSVERSION__=7 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AccountDAO.cpp
-         AccountDAO.cpp
-     1>f:\projects\middleware\bankmanager\bankmanagerserver\accountdao.cpp(30): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\projects\middleware\bankmanager\bankmanagerserver\accountdao.cpp(36): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\projects\middleware\bankmanager\bankmanagerserver\accountdao.cpp(45): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:\lib\xerces-c-3.1.1-x86-windows-vc-10.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D __WIN32__ /D __x86__ /D _WIN32_WINNT=0x0400 /D __NT__ /D __OSVERSION__=7 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AccountManager.cpp
+         AccountManager.cpp
+     1>e:\lib\omniorb-4.1.6\include\omniorb4\stringtypes.h(144): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\projects\middleware\bankmanager\bankmanager\bankmanagerserver\accountmanager.cpp(54): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
-     1>f:\projects\middleware\bankmanager\bankmanagerserver\accountdao.cpp(73): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\projects\middleware\bankmanager\bankmanagerserver\accountdao.cpp(79): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\projects\middleware\bankmanager\bankmanagerserver\accountdao.cpp(122): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
-     1>f:\projects\middleware\bankmanager\bankmanagerserver\accountdao.cpp(136): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\projects\middleware\bankmanager\bankmanagerserver\accountdao.cpp(142): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\projects\middleware\bankmanager\bankmanagerserver\accountdao.cpp(165): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\projects\middleware\bankmanager\bankmanagerserver\accountdao.cpp(181): warning C4018: “<”: 有符号/无符号不匹配
-     1>f:\projects\middleware\bankmanager\bankmanagerserver\accountdao.cpp(188): warning C4018: “<”: 有符号/无符号不匹配
        ManifestResourceCompile:
          所有输出均为最新。
        Link:
-         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\projects\middleware\BankManager\Debug\BankManagerServer.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\lib\xerces-c-3.1.1-x86-windows-vc-10.0\lib" ws2_32.lib mswsock.lib advapi32.lib omniORB415_rt.lib omniDynamic415_rt.lib omnithread34_rt.lib "xerces-c_3.lib" "xerces-c_3D.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BankManagerServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\projects\middleware\BankManager\Debug\BankManagerServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\projects\middleware\BankManager\Debug\BankManagerServer.lib" /MACHINE:X86 Debug\BankManagerServer.exe.embed.manifest.res
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\projects\middleware\BankManager\BankManager\BankManagerServer\Debug\BankManagerServer.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\lib\xerces-c-3.1.1-x86-windows-vc-10.0\lib" ws2_32.lib mswsock.lib advapi32.lib omniORB415_rt.lib omniDynamic415_rt.lib omnithread34_rt.lib "xerces-c_3.lib" "xerces-c_3D.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BankManagerServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\projects\middleware\BankManager\BankManager\BankManagerServer\Debug\BankManagerServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\projects\middleware\BankManager\BankManager\BankManagerServer\Debug\BankManagerServer.lib" /MACHINE:X86 Debug\BankManagerServer.exe.embed.manifest.res
+         Debug\AccountDAO.obj
+         Debug\AccountManager.obj
          Debug\BankManagerSK.obj
          Debug\Server.obj
-         Debug\AccountDAO.obj
-         Debug\AccountEntity.obj
-         Debug\AccountManager.obj
-         Debug\AccountDAO.obj
          Debug\XmlDb.obj
-     1>Debug\AccountDAO.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
        Manifest:
          C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\BankManagerServer.exe.embed.manifest" /manifest Debug\BankManagerServer.exe.intermediate.manifest
          所有输出均为最新。
        LinkEmbedManifest:
          所有输出均为最新。
-         BankManagerServer.vcxproj -> F:\projects\middleware\BankManager\Debug\BankManagerServer.exe
+         BankManagerServer.vcxproj -> F:\projects\middleware\BankManager\BankManager\BankManagerServer\Debug\BankManagerServer.exe
        FinalizeBuildStatus:
          正在删除文件“Debug\BankManagerServer.unsuccessfulbuild”。
          正在对“Debug\BankManagerServer.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“F:\projects\middleware\BankManager\BankManagerServer\BankManagerServer.vcxproj”(build 个目标)的操作。
+     1>已完成生成项目“F:\projects\middleware\BankManager\BankManager\BankManagerServer\BankManagerServer.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:05.79
+已用时间 00:00:09.76

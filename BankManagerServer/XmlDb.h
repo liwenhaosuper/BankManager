@@ -1,5 +1,5 @@
-#ifndef __XMLDB_H__
-#define __XMLDB_H__
+#ifndef _XMLDB_H__
+#define _XMLDB_H__
 
 #include <xercesc/util/PlatformUtils.hpp>
 #include <xercesc/dom/DOM.hpp>

@@ -10,6 +10,21 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AccountDAO.h" />
+    <ClInclude Include="AccountEntity.h" />
+    <ClInclude Include="AccountManager.h" />
+    <ClInclude Include="BankManager.h" />
+    <ClInclude Include="XmlDb.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AccountDAO.cpp" />
+    <ClCompile Include="AccountManager.cpp" />
+    <ClCompile Include="BankManagerSK.cpp" />
+    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="XmlDb.cpp" />
+    <ClCompile Include="xmlTest.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{CFE9FD42-9867-4A05-BEC9-EDC592DC16CC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -42,6 +57,9 @@
     <ExecutablePath>E:\lib\omniORB-4.1.6\bin\x86_win32;$(ExecutablePath)</ExecutablePath>
     <IncludePath>E:\lib\omniORB-4.1.6\include;$(IncludePath)</IncludePath>
     <LibraryPath>E:\lib\omniORB-4.1.6\lib\x86_win32;$(LibraryPath)</LibraryPath>
+    <OutDir>$(ProjectDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -79,19 +97,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\BankManagerClient\BankManagerSK.cpp" />
-    <ClCompile Include="..\BankManagerClient\Server.cpp" />
-    <ClCompile Include="AccountDAO.cpp" />
-    <ClCompile Include="AccountEntity.h" />
-    <ClCompile Include="AccountManager.cpp" />
-    <ClCompile Include="AccountDAO.h" />
-    <ClCompile Include="XmlDb.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\BankManagerClient\BankManager.h" />
-    <ClInclude Include="XmlDb.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

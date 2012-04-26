@@ -1,7 +1,7 @@
 //AccountEntity.h
 #ifndef _ACCOUNTENTITY_
 #define _ACCOUNTENTITY_
-
+#pragma once
 #include <string>
 using namespace std;
 

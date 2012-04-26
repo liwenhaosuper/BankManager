@@ -1,6 +1,7 @@
 
-#ifndef _IACCOUNTDAO_
-#define _IACCOUNTDAO_
+#ifndef _ACCOUNTDAO_H
+#define _ACCOUNTDAO_H
+
 #include "AccountEntity.h"
 #include "XmlDb.h"
 #include <xercesc/util/PlatformUtils.hpp>

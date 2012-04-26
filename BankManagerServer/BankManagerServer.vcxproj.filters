@@ -15,34 +15,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\BankManagerClient\Server.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\BankManagerClient\BankManagerSK.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="AccountManager.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="AccountEntity.h">
+    <ClInclude Include="AccountDAO.h">
       <Filter>头文件</Filter>
-    </ClCompile>
-    <ClCompile Include="AccountDAO.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="XmlDb.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="AccountDAO.h">
+    </ClInclude>
+    <ClInclude Include="AccountEntity.h">
       <Filter>头文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\BankManagerClient\BankManager.h">
+    </ClInclude>
+    <ClInclude Include="AccountManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BankManager.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="XmlDb.h">
       <Filter>头文件</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AccountDAO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BankManagerSK.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlDb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="xmlTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

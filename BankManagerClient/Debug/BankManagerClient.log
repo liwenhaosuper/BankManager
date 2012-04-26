@@ -1,0 +1,29 @@
+﻿生成启动时间为 2012-04-26 13:19:11。
+     1>项目“F:\projects\middleware\BankManager\BankManager\BankManagerClient\BankManagerClient.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\BankManagerClient.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D __WIN32__ /D __x86__ /D _WIN32_WINNT=0x0400 /D __NT__ /D __OSVERSION__=7 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Client.cpp
+         Client.cpp
+     1>e:\lib\omniorb-4.1.6\include\omniorb4\stringtypes.h(144): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\projects\middleware\BankManager\BankManager\BankManagerClient\Debug\BankManagerClient.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\lib\omniORB-4.1.6\lib\x86_win32" ws2_32.lib mswsock.lib advapi32.lib omniORB415_rt.lib omniDynamic415_rt.lib omnithread34_rt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BankManagerClient.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\projects\middleware\BankManager\BankManager\BankManagerClient\Debug\BankManagerClient.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\projects\middleware\BankManager\BankManager\BankManagerClient\Debug\BankManagerClient.lib" /MACHINE:X86 Debug\BankManagerClient.exe.embed.manifest.res
+         Debug\BankManagerSK.obj
+         Debug\Client.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\BankManagerClient.exe.embed.manifest" /manifest Debug\BankManagerClient.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         BankManagerClient.vcxproj -> F:\projects\middleware\BankManager\BankManager\BankManagerClient\Debug\BankManagerClient.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\BankManagerClient.unsuccessfulbuild”。
+         正在对“Debug\BankManagerClient.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\projects\middleware\BankManager\BankManager\BankManagerClient\BankManagerClient.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.75

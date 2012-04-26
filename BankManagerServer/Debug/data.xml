@@ -1,0 +1,13 @@
+<?xml version=1.0 encoding="utf-8"?>
+   <accounts>
+       <account id="1">
+	       <customerName>hello</customerName>
+		   <password>hello</password>
+		   <balance>1000.0></balance>
+	   </account>
+	   <account id="2">
+		   <customerName>hello1</customerName>
+	       <password>hello1</password>
+	       <balance>10001.0></balance>
+	   </account>
+   </accounts>
